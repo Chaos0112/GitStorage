@@ -1,3 +1,4 @@
 0924 test git
 hello world
 git add
+this dir had add b.txt
