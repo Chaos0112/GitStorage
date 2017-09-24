@@ -1,0 +1,19 @@
+查看邮箱 	git config user.email
+查看用户名 	git config user.name
+修改用户名 	git --global user.name "name"
+修改邮箱 git --global user.email "email@email.com"
+查看远程地址 git remote -v
+查看git版本 git --version
+查看git当前状态 git status
+打印log git log
+回退上一个版本 git reset --hard head^ 
+回退当前版本 git reset --hard head 
+回退前100个版本 git reset --hard ~100
+回退到某一id的版本 git reset --hard [id]
+撤销暂存区的版本 git reset head file 然后 checkout 撤销工作区的修改
+对比工作区和版本库的差异 git diff --filename
+撤销工作区的修改 git checkout -- file
+删除文件 rm filename
+git删除文件 git rm filename 然后提交
+
+
