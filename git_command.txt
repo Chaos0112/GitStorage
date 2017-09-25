@@ -24,3 +24,5 @@ git删除文件 git rm filename 然后提交
 创建并切换到分支 git checkout -b dev dev为分支名
 创建分支 git branch dev
 切换分支 git checkout dev
+合并分支 git merge dev
+删除分支 git branch -d dev
