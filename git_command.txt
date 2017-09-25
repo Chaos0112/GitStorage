@@ -26,3 +26,8 @@ git删除文件 git rm filename 然后提交
 切换分支 git checkout dev
 合并分支 git merge dev
 删除分支 git branch -d dev
+如果分支未合并就要删除，需要强行删除分支git branch -D feature-vulcan
+合并保存分支信息并commit git merge --no-ff -m “merge”
+保存临时工作状态 git stash  使用git stash list查看  git stash apply恢复但是恢复之后要使用git stash drop 删除stash
+恢复工作状态并删除stash git stash pop
+恢复指定工作状态 git stash apply stash@{no.}
