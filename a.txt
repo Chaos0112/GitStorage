@@ -5,6 +5,6 @@ this dir had add b.txt
 first insert
 second insert
 text checkout after add
-<<<<<<< HEAD
 git branch conflict how to resolve
 add branch dev===
+add another repository
