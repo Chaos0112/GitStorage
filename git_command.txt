@@ -41,3 +41,4 @@ git删除文件 git rm filename 然后提交
 如果要推送某个标签到远程，使用命令git push origin <tagname>：
 推送全部tag git push origin --tags
 删除远程tag git push origin :refs/tags/v0.9
+查看标签信息 git show
