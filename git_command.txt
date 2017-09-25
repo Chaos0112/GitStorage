@@ -32,3 +32,12 @@ git删除文件 git rm filename 然后提交
 恢复工作状态并删除stash git stash pop
 恢复指定工作状态 git stash apply stash@{no.}
 从远程仓库pull前 指定分支dev git branch --set-upstream-to origin/dev
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+有参数的log git log --pretty=oneline --abbrev-commit
+在当前分支打tag，默认打在最新commit上的 git tag v1.0，或者git tag v1.0 versionCode(6224937)
+查看tag git tag
+创建带有说明的标签，用-a指定标签名，-m指定说明文字：git tag -a v0.1 -m "version 0.1 released" 3628164
+删除标签 git tag -d v0.1
+如果要推送某个标签到远程，使用命令git push origin <tagname>：
+推送全部tag git push origin --tags
+删除远程tag git push origin :refs/tags/v0.9
