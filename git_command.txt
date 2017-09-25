@@ -43,3 +43,6 @@ git删除文件 git rm filename 然后提交
 删除远程tag git push origin :refs/tags/v0.9
 查看标签信息 git show
 删除远程分支 git push origin :branch
+查看远程分支和本地分支 git branch -a
+查看远程库和本地关系 git remote show origin
+删除不存在的分支 git remote prune origin
