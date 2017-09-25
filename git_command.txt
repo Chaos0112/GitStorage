@@ -15,5 +15,8 @@
 撤销工作区的修改 git checkout -- file
 删除文件 rm filename
 git删除文件 git rm filename 然后提交
-
-
+获取sshkey ssh-keygen -t rsa -C "youremail@example.com"
+将本地仓库关联到远程仓库 git remote add repository_name git@github.com:michaelliao/learngit.git
+首次推动 git push -u repository_name master
+克隆远程仓库 git clone git@github.com:michaelliao/gitskills.git
+移除远程库 git remote rm origin
